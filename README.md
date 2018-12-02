@@ -7,4 +7,9 @@ Example1.html is a responsive solution for mobile and desktop and uses the style
 
 For Example2 the accordion has been styled using style.css.
 
+Features of Accordion:
+Only 1 accordion will be open at a time.
+The first accordion on load.
+If the open accordion is clicked, it will be closed.
+
 
