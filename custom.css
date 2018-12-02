@@ -1,0 +1,221 @@
+@media (min-width: 992px)  {
+  
+  	.thumbnail {
+    position: relative;
+	
+}
+
+
+p{
+	color:white;
+}
+.caption {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width:100%;
+    
+	font-family:Verdana;
+	font-size:50px;
+	font-weight:bold;
+	color:white;
+	
+	
+}
+
+
+.smalltext {
+    position: absolute;
+    top: 53%;
+    left: 0;
+    width:100%;
+    
+	font-family:Calibri Light;
+	font-size:33px;
+	color:white;
+    font-weight:normal;
+    letter-spacing:0.0210em;
+	
+	
+
+}
+
+.coltextstyle{
+color:black;
+text-align:center;
+height:10pc;
+font-family:Calibri Light;
+font-weight:normal;
+font-size:16px;
+padding:8px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:10px;
+}
+
+
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.colborder {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding:15px;
+  margin:10px;
+}
+
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+  width: 100%;
+}
+.parent {
+  
+  
+  width: 115px;
+  height: 35px;
+  border-radius: 35px;
+  padding: 9px; 
+  border: 2px solid black;
+  font-size: 11px;
+  font-weight:bold;
+  color: black;
+  background: white;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+  
+}
+
+/* for mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	.thumbnail {
+    position: relative;
+	
+}
+
+
+p{
+	color:white;
+}
+.caption {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    width:100%;
+    
+	font-family:Verdana;
+	font-size:50px;
+	font-weight:bold;
+	color:white;	
+}
+
+
+.smalltext {
+    position: absolute;
+    top: 58%;
+    left: -20px;
+    width:100%;
+    
+	font-family:Calibri Light;
+	font-size:25px;
+	color:white;
+    font-weight:normal;
+    letter-spacing: 0.0600em;
+	word-spacing: 0.1600em;
+
+}
+
+.coltextstyle{
+color:black;
+text-align:center;
+
+font-family:Calibri Light;
+font-weight:normal;
+font-size:20px;
+padding:8px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:10px;
+}
+
+
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.colborder {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding:20px;
+  margin:10px;
+}
+
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+  width: 100%;
+}
+.parent {
+ 
+  width: 150px;
+  height: 40px;
+  border-radius: 120px;
+  padding: 7px; 
+  border: 3px solid black;
+  font-size: 16px;
+  letter-spacing:1px;
+  font-weight:bold;
+  color: black;
+  background: white;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+   
+}
+ 
