@@ -14,3 +14,5 @@ The first accordion will be expanded on load.
 
 If an open accordion is clicked, it will be closed.  
 
+Please keep the html file and its corresponding stylesheet in the same folder when testing
+
